@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_trocarModo"
+        android:icon="@drawable/ic_swap_horiz_24"
+        android:title="Item"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_duvida"
+        android:icon="@drawable/ic_help"
+        android:iconTint="@android:color/black"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_exibir_atalhos"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Exibir atalhos" />
+    <item
+        android:id="@+id/action_escutar_resposta"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Escutar Resposta" />
+    <item
+        android:id="@+id/action_limpar_tudo"
+        android:title="Limpar tudo"
+        android:visible="false" />
+</menu>
